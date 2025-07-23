@@ -109,7 +109,7 @@ fi
 # Working directory to open in, defaults to pwd
 cwd="$(cd ${1:-$(pwd)} && pwd) "
 # Available layouts can be found in the zide layouts/ directory
-layout=${2:-${ZIDE_DEFAULT_LAYOUT:-"default"}} 
+layout=${2:-${ZIDE_DEFAULT_LAYOUT:-"default_shell"}} 
 # Default session/tab name to the basename of the provided dir if -N flag set
 if [[ "${name}" == "__basename__" ]]; then
   name="$(basename ${cwd})"

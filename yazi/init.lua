@@ -1,1 +1,1 @@
-require("auto-layout")
+require("toggle-pane"):entry("max-current")
