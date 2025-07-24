@@ -5,6 +5,7 @@ layouts/*.kdl
 !layouts/compact.kdl
 !layouts/compact_lazygit.kdl
 !layouts/default.kdl
+!layouts/default_shell.kdl
 !layouts/default_lazygit.kdl
 !layouts/stacked.kdl
 !layouts/stacked_lazygit.kdl
